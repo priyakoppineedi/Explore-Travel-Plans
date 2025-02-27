@@ -3,7 +3,7 @@ import google.generativeai as genai
 import json
 from datetime import datetime
 
-with open(r"D:/Docu/pyjunb/API_keys/API_key2_innomatics.txt") as f:
+with open(r"D:/API_key2_innomatics.txt") as f:
     key = f.read().strip()
 genai.configure(api_key=key)
 
